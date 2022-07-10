@@ -1,0 +1,18 @@
+GET http://localhost:3001/quests
+
+###
+
+POST http://localhost:3001/quests/new
+Content-Type: application/json
+
+{
+    "text" : "Delete this quest!"
+}
+
+###
+
+DELETE http://localhost:3001/quests/delete/62c48fd9050ba87f645e3f7c
+
+###
+
+PUT http://localhost:3001/quests/complete/62c48e5f916765231dbbdbaa
